@@ -33,7 +33,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun MyNavigation() {
     val navController = rememberNavController()
-    NavHost(navController = navController, startDestination = "LogIn") {
+    NavHost(navController = navController, startDestination = "Login") {
         composable("HomePage") {
             AppLayout(navController = navController) { currentNavController ->
                 HomePage(navController = currentNavController)
@@ -51,23 +51,23 @@ fun MyNavigation() {
             }
         }
         composable("Contact") {
-            AppLayout(navController = navController) { currentNavController ->
-                Contact(navController = currentNavController)
+            AppLayout(navController = navController) {
+                Contact()
             }
         }
         composable("Profile") {
-            AppLayout(navController = navController) { currentNavController ->
-                Profile(navController = currentNavController)
+            AppLayout(navController = navController) {
+                Profile()
             }
         }
         composable("Certificate") {
-            AppLayout(navController = navController) { currentNavController ->
-                Certificate(navController = currentNavController)
+            AppLayout(navController = navController) {
+                Certificate()
             }
         }
         composable("ChatBot") {
-            AppLayout(navController = navController) { currentNavController ->
-                ChatBot(navController = currentNavController)
+            AppLayout(navController = navController) {
+                ChatBot()
             }
         }
         composable("Donate") {
@@ -76,18 +76,18 @@ fun MyNavigation() {
             }
         }
         composable("Guideline") {
-            AppLayout(navController = navController) { currentNavController ->
-                Guideline(navController = currentNavController)
+            AppLayout(navController = navController) {
+                Guideline()
             }
         }
         composable("Notification") {
-            AppLayout(navController = navController) { currentNavController ->
-                Notification(navController = currentNavController)
+            AppLayout(navController = navController) {
+                Notification()
             }
         }
         composable("Track") {
-            AppLayout(navController = navController) { currentNavController ->
-                Track(navController = currentNavController)
+            AppLayout(navController = navController) {
+                Track()
             }
         }
     }

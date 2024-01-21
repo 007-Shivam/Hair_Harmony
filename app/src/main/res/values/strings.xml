@@ -1,3 +1,115 @@
 <resources>
     <string name="app_name">Hair Harmony</string>
+
+    <string name="email">Email</string>
+    <string name="pas">Password</string>
+    <string name="proceed">Continue with your</string>
+    <string name="login">Login</string>
+    <string name="no_acc">Don`t have account? Signup</string>
+
+    <string name="signup">Signup</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone Number</string>
+    <string name="uni">University</string>
+    <string name="con">Confirm Password</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="hv_acc">Already have an account? Log In</string>
+    <string name="privacy">I have read through the privacy policy, terms and conditions to make a donation.</string>
+    <string name="cert">Would you like to receive the acknowledgement certificate</string>
+    <string name="center">Donation Center Address</string>
+    <string name="Guidelines">Guidelines</string>
+    <string name="guide">1.Length: Minimum 8 inches, measured from the cut to the tip.\n\n
+2.Condition: Clean, dry, and free of styling products; dyed or permed hair accepted.\n\n
+3.Packaging: Securely tie in a ponytail or braid; place in a zip-lock bag.\n\n
+4.Cutting Technique: Make a clean, straight cut; avoid split ends.\n\n
+5.Accepted Types: Straight, wavy, curly, and chemically unprocessed hair.\n\n
+6.Ineligible: No hair from the floor or brushes; no shaved heads or buzz cuts.\n\n
+7.Donation Process: Fill out the form on the app or website; follow mailing instructions.\n\n
+8.Post-Donation Care: Consider donating in a ponytail or braid for easier wig making.
+
+Thank you for your generosity! Your hair donation at HairHarmony makes a meaningful difference.</string>
+    <string name="p_name">Ayushi Singh</string>
+    <string name="p_email">ayu@gmail.com</string>
+    <string name="p_ph">+91 9876342145</string>
+    <string name="p_uni">BVPDET</string>
+    <string name="p_gen">Female</string>
+    <string name="gen">Gender</string>
+    <string name="logout">LOG OUT</string>
+    <string name="b_join">JOIN</string>
+    <string name="sign_dic">Sign Dictionary</string>
+    <string name="sign_word">Sign to Word</string>
+    <string name="word_sign">Word to Sign</string>
+    <string name="cam">Click on the above icon to take a pic and translate the sign language</string>
+    <string name="signtoword">Translating sign language to word............... </string>
+    <string name="tran">Translate</string>
+    <string name="Donate">Donate your Hair</string>
+    <string name="Track">Track Donation</string>
+    <string name="chatbot">ChatBot</string>
+    <string name="Certification">Thank You for your Contribution</string>
+
+    <string-array name="list_one_title">
+        <item>Place 1</item>
+        <item>Place 2</item>
+        <item>Place 3</item>
+        <item>Place 4</item>
+        <item>Place 5</item>
+
+        <item>Place 6</item>
+        <item>Place 7</item>
+        <item>Place 8</item>
+        <item>Place 9</item>
+        <item>Place 10</item>
+
+        <item>Place 11</item>
+        <item>Place 12</item>
+        <item>Place 13</item>
+        <item>Place 14</item>
+        <item>Place 15</item>
+
+        <item>Place 16</item>
+        <item>Place 17</item>
+        <item>Place 18</item>
+        <item>Place 19</item>
+        <item>Place 20</item>
+    </string-array>
+
+    <string name="hello">Tracking......</string>
+    <string name="Date">Date of Haircut (DD/MM/YYYY) </string>
+    <string name="word">Enter Word</string>
+    <string name="age">Age</string>
+    <string name="search">Search</string>
+    <string name="Dont">Donation Form</string>
+    <string name="add">Address</string>
+    <string name="abdomen">Abdomen</string>
+    <string name="above">Above</string>
+    <string name="abolish">Abolish</string>
+    <string name="about">About</string>
+    <string name="absorb">Absorb</string>
+    <string name="abuse">Abuse</string>
+
+    <string name="aboutus">About Us</string>
+    <string name="about_us">OUR MISSION IS SIMPLE YET IMPACTFUL: WE CONNECT INDIVIDUALS WHO ARE READY TO SHARE THE GIFT OF HAIR WITH THOSE IN NEED.
+        BY PARTNERING WITH TRUSTED ORGANIZATIONS, WE ENSURE THAT YOUR DONATED HAIR IS CRAFTED INTO HIGH-QUALITY WIGS, PROVIDING COMFORT AND HOPE TO
+        THOSE GOING THROUGH CHALLENGING TIMES.\n\nHAIRHARMONY IS MORE THAN JUST AN APP: IT\'S A MOVEMENT THAT CELEBRATES THE BEAUTY OF GIVING.
+        WHETHER YOU\'RE GROWING YOUR HAIR FOR A CAUSE OR SEARCHING FOR A MEANINGFUL WAY TO CONTRIBUTE, OUR PLATFORM BRINGS TOGETHER LIKE-MINDED
+        INDIVIDUALS WITH A SHARED PURPOSE.\n\nJOIN US IN CREATING A HARMONIOUS BLEND OF BEAUTY AND BENEVOLENCE. TOGETHER, WE WEAVE A TAPESTRY OF
+        COMPASSION, ONE STRAND AT A TIME. HAIRHARMONY WHERE YOUR GENEROSITY BECOMES A MELODY OF KINDNESS, RESONATING FAR BEYOND THE SURFACE. </string>
+
+    <string name="contact">CONTACT US</string>
+    <string name="content">WE\'RE HERE TO LISTEN AND CONNECT! AT HAIRHARMONY, YOUR THOUGHTS, QUESTIONS, AND SUGGESTIONS MATTER. FEEL FREE TO REACH OUT TO US ANYTIME, AND WE\'LL DO OUR BEST TO ASSIST YOU.</string>
+    <string name="customer">CUSTOMER SUPPORT EMAIL:</string>
+    <string name="cust_email">SUPPORT@HAIRHARMONYAPP.COM</string>
+    <string name="tech">TECHNICAL ASSISTANCE:</string>
+    <string name="tech_email">TECHSUPPORT@HAIRHARMONYAPP.COM</string>
+    <string name="business">BUSINESS INQUIRIES:</string>
+    <string name="business_email">PARTNERSHIPS@HAIRHARMONYAPP.COM</string>
+    <string name="social_media">SOCIAL MEDIA:</string>
+
+
+
+
+
+
 </resources>

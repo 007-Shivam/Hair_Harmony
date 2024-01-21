@@ -11,11 +11,16 @@ import androidx.compose.material.icons.filled.ExitToApp
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.Menu
+import androidx.compose.material.icons.filled.MoreVert
+import androidx.compose.material.icons.filled.Notifications
 import androidx.compose.material.icons.filled.Phone
 import androidx.compose.material.icons.outlined.AccountCircle
 import androidx.compose.material.icons.outlined.ExitToApp
 import androidx.compose.material.icons.outlined.Home
 import androidx.compose.material.icons.outlined.Info
+import androidx.compose.material.icons.outlined.Menu
+import androidx.compose.material.icons.outlined.MoreVert
+import androidx.compose.material.icons.outlined.Notifications
 import androidx.compose.material.icons.outlined.Phone
 import androidx.compose.material.icons.twotone.Build
 import androidx.compose.material3.DrawerValue
@@ -72,10 +77,28 @@ fun AppLayout(navController: NavHostController, content: @Composable (NavHostCon
             page = "Profile"
         ),
         NavigationItem(
-            title = "Tutorial",
+            title = "Notifications",
+            selectedIcon = Icons.Filled.Notifications,
+            unselectedIcon = Icons.Outlined.Notifications,
+            page = "Notification"
+        ),
+        NavigationItem(
+            title = "Guidelines",
             selectedIcon = Icons.TwoTone.Build,
             unselectedIcon = Icons.TwoTone.Build,
-            page = "Tutorial"
+            page = "Guideline"
+        ),
+        NavigationItem(
+            title = "Your Certificates",
+            selectedIcon = Icons.Filled.MoreVert,
+            unselectedIcon = Icons.Outlined.MoreVert,
+            page = "Certificate"
+        ),
+        NavigationItem(
+            title = "Chat bot",
+            selectedIcon = Icons.Filled.Menu,
+            unselectedIcon = Icons.Outlined.Menu,
+            page = "ChatBot"
         ),
         NavigationItem(
             title = "About Us",
@@ -143,9 +166,14 @@ fun AppLayout(navController: NavHostController, content: @Composable (NavHostCon
                 topBar = {
                     TopAppBar(
                         title = {
-                            Text(text = "Sanket")
+                            Text(text = "HairHarmony")
                         },
-                        colors = TopAppBarDefaults.smallTopAppBarColors(containerColor = Color(254, 246, 239)
+                        colors = TopAppBarDefaults.smallTopAppBarColors(containerColor = Color(
+                            238,
+                            242,
+                            241,
+                            255
+                        )
                         ),
                         navigationIcon = {
                             IconButton(onClick = {
